@@ -1,0 +1,9 @@
+List after adding an element: [100, 200, 300, 400, 500, 600]
+List after removing an element: [200, 300, 400, 500, 600]
+List after modifying an element: [200, 300, 700, 500, 600]
+Dictionary after adding a key-value pair: {'a': 100, 'b': 200, 'c': 300, 'e': 500}
+Dictionary after removing a key-value pair: {'a': 100, 'b': 200, 'e': 500}
+Dictionary after modifying a value: {'a': 5000, 'b': 200, 'e': 500}
+Set after adding an element: {1, 2, 3, 4, 5, 7}
+Set after removing an element: {1, 3, 4, 5, 7}
+Set after modifying an element: {3, 4, 5, 7, 10}
