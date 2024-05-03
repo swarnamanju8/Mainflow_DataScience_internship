@@ -1,0 +1,51 @@
+# Create a manju list
+manju_list = [100,200,300,400,500]
+
+# Adding an element to the list
+manju_list.append(600)
+print("List after adding an element:", manju_list)
+
+# Removing an element from the list
+manju_list.remove(100)
+print("List after removing an element:", manju_list)
+
+# Modifying an element in the list
+manju_list[2] =700
+print("List after modifying an element:", manju_list)
+
+# Create a manju dictionary
+manju_dict = {'a': 100, 'b': 200, 'c': 300}
+
+# Adding a key-value pair to the dictionary
+manju_dict['e'] = 500
+print("Dictionary after adding a key-value pair:", manju_dict)
+
+# Removing a key-value pair from the dictionary
+del manju_dict['c']
+print("Dictionary after removing a key-value pair:", manju_dict)
+
+# Modifying a value in the dictionary
+manju_dict['a'] = 5000
+print("Dictionary after modifying a value:", manju_dict)
+# Creating a manju set
+manju_set = {1, 2, 3, 4, 5}
+
+# Adding an element to the set
+manju_set.add(7)
+print("Set after adding an element:", manju_set)
+
+# Removing an element from the set
+manju_set.remove(2)
+print("Set after removing an element:", manju_set)
+
+# Modifying an element in the set
+# Since sets are unordered, we need to convert it to a list first
+manju_set_list = list(manju_set)
+if len(manju_set_list) > 0:
+    # Let's modify the first element
+    manju_set_list[0] = 10
+    # Convert the list back to a set
+    manju_set = set(manju_set_list)
+    print("Set after modifying an element:", manju_set)
+else:
+    print("Set is empty, cannot modify an element.")
