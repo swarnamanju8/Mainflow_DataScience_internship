@@ -1,0 +1,22 @@
+import pandas as pd
+data= pd.read_csv('/content/archive (1).zip')
+type(data)
+data.info
+data.head()
+data.describe()
+data= data.drop_duplicates()
+data
+data.isnull().sum()
+data.isnull().sum().sum()
+data2=data.fillna(value=0)
+data2
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy import stats
+data2.columns
+data2.drop(['School Name'],axis=1,inplace= True)
+data2.columns
+data3=data.fillna(method='pad')
+data3
+data4=data.fillna(method='bfill')
+data4
